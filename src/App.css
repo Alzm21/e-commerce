@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --border-color: rgba(194, 194, 194, 0.6);
+    --icon-color: rgb(194,194,194);
+    --main-color: #f85555;
+    --primary: #F85555;
+    --light-gray: #DCD9D9;
+    --gray: #C7C7C7;
+    --dark-gray: #4F4F4F;
+     --text-gray: #ABABAB;
+}
+
+#root {
+    font-family: "Yantramav", sans-serif;
+    color: #515151;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+img {
+    display: inline-block;
+    max-height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+ul {
+    list-style: none;
+}
+
+input, button {
+    display: inline-block;
+    font: inherit;
+    cursor: pointer;
+}
+button{
+    padding: 3px, 10px;
+    width: 100px;
+    height: 30px;
+}

@@ -1,0 +1,25 @@
+.category_drop-down {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260px;
+}
+.category_header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    width: 100%;
+    border-bottom: 2px solid var(--light-gray);
+}
+
+.filtercategory {
+    margin: 20px;
+}
+.filtercategory li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    color: #808080;
+    font-size: 0.9rem;
+}
